@@ -4,7 +4,7 @@ Welcome to the Data Warehouse and Analytics Project repository! 🚀
 
 This project showcases the design and implementation of a modern data warehouse and analytics solution using Microsoft SQL Server and Medallion Architecture. It covers the complete data engineering workflow — from data ingestion and ETL processes to data modeling and analytics reporting.
 
-The project is structured to simulate a real-world data warehouse environment, focusing on clean architecture, maintainability, and analytics-ready datasets. 📊
+The project is structured to simulate a real-world data warehouse environment, focusing on clean architecture, maintainability, and analytics-ready datasets. 
 
 ---
 
@@ -31,7 +31,7 @@ Build a modern data warehouse using Microsoft SQL Server to consolidate sales da
 - **Data Quality**: Clean and resolve data quality issues before analysis.
 - **Integration**: Combine both sources into a single, analytics-friendly data model optimized for querying.
 - **Scope**: Focus on the latest dataset only; historization is not required.
-- **Documentation**: Provide clear documentation of the data model for both business stakeholders and analytics teams. 📄
+- **Documentation**: Provide clear documentation of the data model for both business stakeholders and analytics teams. 
 
 ---
 
