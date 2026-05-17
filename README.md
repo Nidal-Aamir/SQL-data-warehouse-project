@@ -52,4 +52,4 @@ These analyses provide key business metrics that support informed and strategic 
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 ## 📚 About Me
-Hi There! I'm **Nidal Aamir**, an aspiring Data Engineer focused on building strong foundations in data systems, analytics, and modern data architecture. I am currently expanding my skill set in distributed data processing using Databricks and exploring cloud data engineering services within the Microsoft Azure ecosystem. 
+Hi there! I'm **Nidal Aamir**, an aspiring Data Engineer focused on building strong foundations in data systems, analytics, and modern data architecture. I am currently expanding my skill set in distributed data processing using Databricks and exploring cloud data engineering services within the Microsoft Azure ecosystem. 
