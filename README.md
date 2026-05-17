@@ -13,6 +13,8 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ![Data Architecture](docs/data_architecture.png)
 
+---
+
 ## Project Requirements
 
 ### Building the Data Warehouse
@@ -27,6 +29,8 @@ _ **Integration**: Combine both sources into a single, analytics-friendly data m
 - **Scope**: Focus on the latest dataset only; historization is not required.
 - **Documentation**: Provide clear documentation of the data model for both business stakeholders and analytics teams. 📄
 
+---
+
 ### BI: Analytics & Reporting (Data Analysis)
 
 #### Objective
@@ -38,6 +42,7 @@ Develop SQL-based analytics to deliver insights into:
 
 These analyses provide key business metrics that support informed and strategic decision-making. 📊
 
+---
 
 ## 🛡️ License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
