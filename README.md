@@ -10,7 +10,7 @@ The project is structured to simulate a real-world data warehouse environment, f
 
 ## Data Architecture
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-!(docs/data_architecture.png)
+![Data Architecture](docs/data_architecture.png)
 
 ## Project Requirements
 
