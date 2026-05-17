@@ -8,7 +8,7 @@ The project is structured to simulate a real-world data warehouse environment, f
 
 ---
 
-## Data Architecture
+## 🏗️ Data Architecture
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 
 ![Data Architecture](docs/data_architecture.png)
@@ -19,12 +19,12 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ---
 
-## Project Requirements
+## 📖 Project Requirements
 
 ### Building the Data Warehouse
 
 #### Objective
-Build a modern data warehouse using Microsoft SQL Server to consolidate sales data and support reporting and data-driven decision-making. 📊
+Build a modern data warehouse using Microsoft SQL Server to consolidate sales data and support reporting and data-driven decision-making.
 
 #### Specifications
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
@@ -35,7 +35,7 @@ Build a modern data warehouse using Microsoft SQL Server to consolidate sales da
 
 ---
 
-### BI: Analytics & Reporting (Data Analysis)
+### 📊 BI: Analytics & Reporting (Data Analysis)
 
 #### Objective
 Develop SQL-based analytics to deliver insights into:
