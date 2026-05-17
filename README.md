@@ -44,7 +44,7 @@ Develop SQL-based analytics to deliver insights into:
 - **Product performance**
 - **Sales trends**
 
-These analyses provide key business metrics that support informed and strategic decision-making. 📊
+These analyses provide key business metrics that support informed and strategic decision-making. 
 
 ---
 
