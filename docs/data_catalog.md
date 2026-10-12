@@ -1,6 +1,7 @@
 # Data Catalog for the Gold Layer
 
 ## Overview
+---
 
 The Gold Layer represents business-ready data, organized to support analytical, reporting, and decision-making needs. It consists of 
 **dimension tables** that provide descriptive business context, and **fact tables** that capture measurable business events and metrics.
@@ -24,6 +25,7 @@ The Gold Layer represents business-ready data, organized to support analytical, 
 | birthdate       | DATE         | The customer's date of birth (YYYY-MM-DD). |
 | create_date     | DATE         | The date the customer record was created in the system. |
 
+---
 
 ### 2. **gold.dim_products**
 
@@ -45,6 +47,7 @@ The Gold Layer represents business-ready data, organized to support analytical, 
 | product_line         | NVARCHAR(50) | Product line or series to which the product belongs (e.g., Road or Mountain). |
 | start_date           | DATE         | Date from which the product record becomes effective or valid. |
 
+---
 
 ### 3. **gold.fact_sales**
 
