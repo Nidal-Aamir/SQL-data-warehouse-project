@@ -11,8 +11,8 @@ The Gold Layer represents business-ready data, organized to support analytical, 
 - **Columns:**
   
 
-  | Column Name     | Data Type    | Description |
-|-------------------|--------------|-------------|
+| Column Name     | Data Type    | Description |
+|-----------------|--------------|-------------|
 | customer_key    | INT          | Surrogate key uniquely identifying each customer record in the dimension table. |
 | customer_id     | INT          | Unique numerical identifier assigned to each customer. |
 | customer_number | NVARCHAR(50) | Alphanumeric identifier representing the customer. |
@@ -23,7 +23,6 @@ The Gold Layer represents business-ready data, organized to support analytical, 
 | gender          | NVARCHAR(50) | The customer's gender (e.g., Male, Female, n/a). |
 | birthdate       | DATE         | The customer's date of birth (YYYY-MM-DD). |
 | create_date     | DATE         | The date the customer record was created in the system. |
-
 
 
 ### 2. **gold.dim_products**
