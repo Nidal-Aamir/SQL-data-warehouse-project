@@ -12,7 +12,7 @@ The Gold Layer represents business-ready data, organized to support analytical, 
   
 
   | Column Name     | Data Type    | Description |
-|-----------------|--------------|-------------|
+|-------------------|--------------|-------------|
 | customer_key    | INT          | Surrogate key uniquely identifying each customer record in the dimension table. |
 | customer_id     | INT          | Unique numerical identifier assigned to each customer. |
 | customer_number | NVARCHAR(50) | Alphanumeric identifier representing the customer. |
