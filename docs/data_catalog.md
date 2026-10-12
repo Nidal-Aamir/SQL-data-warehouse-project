@@ -31,7 +31,7 @@ The Gold Layer represents business-ready data, organized to support analytical, 
 - **Columns:**
   
 
-  Column Name          | Data Type    | Description |
+| Column Name          | Data Type    | Description |
 |----------------------|--------------|-------------|
 | product_key          | INT          | Surrogate key uniquely identifying each product record in the dimension table. |
 | product_id           | INT          | Unique identifier assigned to the product in the source system. |
@@ -44,7 +44,6 @@ The Gold Layer represents business-ready data, organized to support analytical, 
 | cost                 | INT          | Product cost, expressed in the source system's monetary units. |
 | product_line         | NVARCHAR(50) | Product line or series to which the product belongs (e.g., Road or Mountain). |
 | start_date           | DATE         | Date from which the product record becomes effective or valid. |
-
 
 
 ### 3. **gold.fact_sales**
