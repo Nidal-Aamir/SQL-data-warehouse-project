@@ -1,7 +1,6 @@
 # Data Catalog for the Gold Layer
 
 ## Overview
----
 
 The Gold Layer represents business-ready data, organized to support analytical, reporting, and decision-making needs. It consists of 
 **dimension tables** that provide descriptive business context, and **fact tables** that capture measurable business events and metrics.
