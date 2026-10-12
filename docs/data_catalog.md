@@ -9,6 +9,7 @@ The Gold Layer represents business-ready data, organized to support analytical, 
 
 - **Purpose:** Stores customer information enriched with demographic and geographic attributes to support customer analysis and reporting.
 - **Columns:**
+  
 
   | Column Name     | Data Type    | Description |
 |-----------------|--------------|-------------|
@@ -24,10 +25,12 @@ The Gold Layer represents business-ready data, organized to support analytical, 
 | create_date     | DATE         | The date the customer record was created in the system. |
 
 
+
 ### 2. **gold.dim_products**
 
 - **Purpose:** Provides information about the products and their attributes.
 - **Columns:**
+  
 
   Column Name          | Data Type    | Description |
 |----------------------|--------------|-------------|
@@ -42,6 +45,7 @@ The Gold Layer represents business-ready data, organized to support analytical, 
 | cost                 | INT          | Product cost, expressed in the source system's monetary units. |
 | product_line         | NVARCHAR(50) | Product line or series to which the product belongs (e.g., Road or Mountain). |
 | start_date           | DATE         | Date from which the product record becomes effective or valid. |
+
 
 
 ### 3. **gold.fact_sales**
