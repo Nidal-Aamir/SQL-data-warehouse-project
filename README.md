@@ -1,10 +1,10 @@
-# Data Warehouse and Analytics Project
+# Data Warehouse Project
 
-Welcome to the Data Warehouse and Analytics Project repository! 🚀
+Welcome to the Data Warehouse Project repository! 🚀
 
-This project showcases the design and implementation of a modern data warehouse and analytics solution using Microsoft SQL Server and Medallion Architecture. It covers the complete data engineering workflow — from data ingestion and ETL processes to data modeling and analytics reporting.
+This project showcases the design and implementation of a modern data warehouse using Microsoft SQL Server and Medallion Architecture. It covers the complete data engineering workflow, including data ingestion, data cleansing, ETL processes, and dimensional data modeling.
 
-The project is structured to simulate a real-world data warehouse environment, focusing on clean architecture, maintainability, and analytics-ready datasets. 
+The project simulates a real-world data warehouse environment, focusing on clean architecture, maintainability, and analytics-ready datasets. 
 
 ---
 
@@ -15,7 +15,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 1. **Bronze Layer:** Stores raw data ingested from CSV files into Microsoft SQL Server.
 2. **Silver Layer:** Cleans, standardizes, and transforms data for analysis.
-3. **Gold Layer:** Contains business-ready data modeled in a star schema for reporting and analytics.
+3. **Gold Layer:** Contains business-ready data modeled in a star schema consisting of fact and dimension views, designed to support analytical queries and reporting.
 
 ---
 
@@ -27,24 +27,12 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 Build a modern data warehouse using Microsoft SQL Server to consolidate sales data and support reporting and data-driven decision-making.
 
 #### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Clean and resolve data quality issues before analysis.
-- **Integration**: Combine both sources into a single, analytics-friendly data model optimized for querying.
-- **Scope**: Focus on the latest dataset only; historization is not required.
-- **Documentation**: Provide clear documentation of the data model for both business stakeholders and analytics teams. 
-
----
-
-### 📊 BI: Analytics & Reporting (Data Analysis)
-
-#### Objective
-Develop SQL-based analytics to deliver insights into:
-
-- **Customer behavior**
-- **Product performance**
-- **Sales trends**
-
-These analyses provide key business metrics that support informed and strategic decision-making. 
+- **Data Sources:** Import data from two source systems (ERP and CRM) provided as CSV files.
+- **Data Quality:** Clean and resolve data quality issues before analysis.
+- **Data Integration:** Combine both sources into a single, analytics-friendly data model optimized for querying.
+- **Data Modeling:** Design a Gold layer using a star schema with fact and dimension views.
+- **Scope:** Focus on the latest dataset, historical data tracking is outside the scope of this project.
+- **Documentation:** Document the architecture, data model, and Gold layer objects.
 
 ---
 
@@ -52,4 +40,4 @@ These analyses provide key business metrics that support informed and strategic 
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 ## 📚 About Me
-Hi there! I'm **Nidal Aamir**, an aspiring Data Engineer focused on building strong foundations in data systems, analytics, and modern data architecture. I am currently expanding my skill set in distributed data processing using Databricks and exploring cloud data engineering services within the Microsoft Azure ecosystem. 
+Hi there! I'm **Nidal Aamir**, an aspiring Data Engineer focused on building strong foundations in data engineering, data warehousing, and modern data architecture. I am expanding my skills in distributed data processing using Databricks and exploring cloud data engineering services within the Microsoft Azure ecosystem. 
